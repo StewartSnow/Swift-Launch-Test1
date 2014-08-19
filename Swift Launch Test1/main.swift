@@ -24,4 +24,4 @@ work.launchApplication("Finder.app")
 
 //task.waitUntilExit()
 
-println("donexyza")
+println("donexyzab")
