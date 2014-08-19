@@ -7,6 +7,21 @@
 //
 
 import Foundation
+import Appkit
+
 
 println("Hello, World!")
 
+//NSTask option - only seems relevant for command line tasks
+//var task = NSTask()
+//task.launchPath = "/bin/ls"
+//task.launch()
+
+var work = NSWorkspace()
+
+work.launchApplication("Finder.app")
+
+
+//task.waitUntilExit()
+
+println("donex")
